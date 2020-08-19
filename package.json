@@ -1,0 +1,14 @@
+{
+  "name": "wfh-status",
+  "version": "1.0.0",
+  "description": "Toggle a Kasa smart device if MacBook camera is enabled",
+  "main": "index.js",
+  "author": "Brian Hurst",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.1.0",
+    "is-camera-on": "^2.0.0",
+    "tplink-smarthome-api": "^2.0.0"
+  }
+}
