@@ -1,7 +1,7 @@
 {
   "name": "busy-bulb",
   "version": "1.0.0",
-  "description": "Toggle a TP-Link Kasa smart device whenever the Mac camera is enabled",
+  "description": "Toggle a smart bulb to let others know you're actively on a video call",
   "main": "index.js",
   "repository": {
     "type": "git",
