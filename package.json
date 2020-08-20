@@ -1,14 +1,26 @@
 {
-  "name": "wfh-status",
+  "name": "busy-bulb",
   "version": "1.0.0",
-  "description": "Toggle a Kasa smart device if MacBook camera is enabled",
+  "description": "Toggle a TP-Link Kasa smart device whenever the Mac camera is enabled",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hursey013/busy-bulb.git"
+  },
   "author": "Brian Hurst",
-  "license": "ISC",
+  "license": "MIT",
+  "scripts": {
+    "start": "forever start index.js",
+    "stop": "forever stopall"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "firebase-admin": "^9.1.0",
     "is-camera-on": "^2.0.0",
     "tplink-smarthome-api": "^2.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hursey013/busy-bulb/issues"
+  },
+  "homepage": "https://github.com/hursey013/busy-bulb#readme"
 }
